@@ -1,0 +1,74 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: left;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 34rem;
+}
+
+.teach{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.teach button{
+      border: 2px solid white;
+      background-color: #000000;
+      height: 50px;
+      color: white;
+}
+.teach button :hover{
+     background-color: #6b5555;
+}
+
+.teach-heads{
+    margin-right: 85vh;
+    margin-left: 30px;
+}
+.comp-name{
+     display: flex;
+     flex-direction: row;
+}
+.comp-name h5{
+     margin-right: 100px;
+     margin-left: 30px;
+}
+
+
+.udm img{
+     width: 100px;
+     height: 60px
+}
+
+.udm-flex{
+     display: flex;
+     flex-direction: row;
+}
+
+.udm-flex button{
+    margin-left: 92vh;
+    border: 2px solid white;
+    background-color: #000000;
+    height: 45px;
+    color: white;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.anchors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 20px 20px; 
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.udm img{
+   margin-top: 80px;
+   margin-left: 20px;
+}

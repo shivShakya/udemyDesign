@@ -1,0 +1,105 @@
+.angular{
+       position: sticky;
+       top : 0;
+       z-index: -2;
+       background-color: black;
+       color: aliceblue;
+       height: 7rem;
+}
+
+.udemy{
+         z-index: 3;
+         margin-top: -50px;
+         height: 5rem;
+         background-color: #ffffff;
+         color: #ffffff;
+         padding: 10px 20px;
+}
+
+
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px; 
+  margin-left: 70px;
+}
+
+.search-bar input[type='text'] {
+  width: 500px; 
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-links i {
+  font-size: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .nav-content {
+    flex-direction: column;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    margin: 5px 0;
+    display: block;
+  }
+}
+
+
+.angular {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Center the title */
+.angular h1 {
+  text-align: left;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.course-info {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.course-info h2 {
+  font-size: 20px;
+  margin-bottom: -5px;
+  margin-top: 20px;
+  }
+  
+.course-info p {
+  margin: 5px 5px;
+}
+.angular {
+  height: 60px;
+}

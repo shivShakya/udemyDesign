@@ -1,0 +1,187 @@
+.courses{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    height: 60rem;
+    width: 43.6rem;
+    margin-top: 2rem;
+    margin-left : 9.8rem;
+}
+
+.drop-list {
+    border: 1px solid #ccc;
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+  }
+
+.courses ul{
+     list-style: none;
+}
+
+.drop-li {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    margin-bottom: 5px; 
+  }
+
+.req{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    height: 15rem;
+    width: 43.6rem;
+    margin-top: 2rem;
+    margin-left : 9.8rem;
+}
+
+.req ul{
+      text-align: left;
+}
+
+
+.inst {
+    border: 0px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    height: 60rem;
+    width: 43.6rem;
+    margin-top: 2rem;
+    margin-left: 9.8rem;
+}
+
+
+
+.inst-details {
+    display: flex;
+    justify-content: center;
+}
+
+.inst-details ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style: none;
+}
+
+.inst-details ul li{
+         padding: 10px;
+}
+
+.inst-img {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: -30vh; 
+}
+
+
+.rating{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    height: 43rem;
+    width: 43.6rem;
+    margin-top: 2rem;
+    margin-left : 9.8rem;  
+}
+
+.rat{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+  
+  .rating__header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .rating__item {
+    margin-bottom: 20px;
+  }
+  
+  .rating__user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .rating__user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .rating__user h3 {
+    margin: 0;
+  }
+  
+  .rating__stars {
+    margin-bottom: 10px;
+  }
+  
+  .rating__stars i {
+    color: #f0c420;
+    margin-right: 5px;
+  }
+  
+  .rating__comment {
+    margin-bottom: 10px;
+  }
+  
+  .rating__helpful {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating__helpful h6 {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .rating__thumbsUp,
+  .rating__thumbsDown {
+    color: #007bff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for link-like elements */
+  .rating__item a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .rating__item a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .desc{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    height: 23rem;
+    width: 43.6rem;
+    margin-top: 2rem;
+    margin-left : 9.8rem;
+}
